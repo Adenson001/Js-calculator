@@ -94,7 +94,7 @@ function CleanOutput(output) {
 
 function ValidateInput(value) {
   let last_input = input.slice(-1);
-  let operators = ["+", "-", "*", "/", "%"];
+  let operators = ["+", "-", "*", "/"];
 
   if (value == "." && last_input == ".") {
     return false;
